@@ -1,0 +1,6 @@
+requests
+nltk
+bs4
+pandas
+numpy
+-e .
