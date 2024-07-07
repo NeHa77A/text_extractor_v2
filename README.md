@@ -5,7 +5,7 @@ The objective of this project is to extract textual data from articles given in 
 
 ## Solution:
 
-We are extracting article text from URLs listed in Input.xlsx using Selenium in DataExtraction.py, cleaned the text by removing stopwords in TextCleaning.py, and analyzed the text for various metrics (sentiment, readability, etc.) in TextAnalysis.py. Finally, we are combining these analysis results with the original input data and saved everything in the structured format in Output Data Structure.xlsx.
+We are extracting article text from URLs listed in Input.xlsx using Selenium in DataExtraction.py then storing it in Artifact\DataExtraction folder with respect to there URL_ID, cleaned the text by removing stopwords in TextCleaning.py and store in Artifact\CleanDat folder, and analyzed the text for various metrics (sentiment, readability, etc.) in TextAnalysis.py. Finally, we are combining these analysis results with the original input data and saved everything in the structured format in Output Data Structure.xlsx.
 
 ### Data Extraction
 Input File: input.xlsx
