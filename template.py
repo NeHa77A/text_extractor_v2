@@ -8,14 +8,14 @@ package_name = "src"
 
 list_of_files =[
     ".github/workflows/.gitkeep",
-    "Artifact/"
     "src/__init__.py",
-    "src/data_extraction.py",
-    "src/text_cleaning.py",
+    "src/constant.py",
+    "src/DataExtraction.py",
+    "src/sentimentAnalysis.py",
+    "src/TextCleaning.py",
     "requirements.txt",
     "setup.py",
-    "main.py",
-    "app.py"
+    "main.py"
 ]
 
 for filepath in list_of_files:
