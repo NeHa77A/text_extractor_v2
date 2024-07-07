@@ -102,3 +102,5 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+## output
+![](https://raw.githubusercontent.com/NeHa77A/text_extractor_v2/main/task_output.png)
